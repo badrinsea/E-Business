@@ -1,0 +1,71 @@
+package org.trusty3pl.business.dao;
+
+import java.util.List;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+import org.trusty3pl.business.model.Acheteur;
+
+
+@Repository("acheteurDao")
+public class AcheteurDaoImpl implements AcheteurDao {
+
+	
+	@Autowired
+	private SessionFactory sessionFactory;
+	@Override
+	public Acheteur findById(String id) {
+		Session session = this.sessionFactory.openSession();
+		Acheteur p = (Acheteur) session.load(Acheteur.class, id);
+		return p;
+	}
+
+	@Override
+	public boolean save(Acheteur c1) {
+		boolean isav=false;
+		Session session = this.sessionFactory.openSession();
+		session.persist(c1);
+		session.flush();
+		isav= true;
+		return isav;
+	}
+
+	@Override
+	public boolean delete(String c1) {
+		Session session = this.sessionFactory.getCurrentSession();
+		Acheteur p = (Acheteur) session.load(Acheteur.class, c1);
+		if(null != p){
+			session.delete(p);
+			return true;
+		}
+        return false;
+	}
+
+	@Override
+	public boolean update(Acheteur c1) {
+		Session session = this.sessionFactory.openSession();
+		session.update(c1);
+		session.flush();
+
+		return true;
+	}
+
+	@SuppressWarnings("unchecked")
+	@Override
+	public List<Acheteur> findAllAcheteurs() {
+		Session session = this.sessionFactory.openSession();
+		List<Acheteur> cartList = (List<Acheteur>)session.createQuery("from Acheteur").list();
+		return cartList;
+	}
+
+	public SessionFactory getSessionFactory() {
+		return sessionFactory;
+	}
+
+	public void setSessionFactory(SessionFactory sessionFactory) {
+		this.sessionFactory = sessionFactory;
+	}
+
+}

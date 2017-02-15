@@ -1,0 +1,22 @@
+package org.trusty3pl.business.control;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import org.trusty3pl.business.service.AppelOffreService;
+
+@RestController
+@RequestMapping("/marche")
+public class AppelOffreController {
+
+	@Autowired
+	private AppelOffreService appeloffreService;
+
+	public AppelOffreService getAppeloffreService() {
+		return appeloffreService;
+	}
+
+	public void setAppeloffreService(AppelOffreService appeloffreService) {
+		this.appeloffreService = appeloffreService;
+	}
+}
