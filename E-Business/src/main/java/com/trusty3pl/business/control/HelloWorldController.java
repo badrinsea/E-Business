@@ -25,7 +25,7 @@ import com.trusty3pl.business.service.ProduitService;
 
 @Controller
 public class HelloWorldController {
-//*dfglf,fsfqlgz huojlh
+//*dfglf,fsfqlgz huojlh fqgsrefs
 	@Autowired
 	ProduitService prdService;
 	@Autowired
