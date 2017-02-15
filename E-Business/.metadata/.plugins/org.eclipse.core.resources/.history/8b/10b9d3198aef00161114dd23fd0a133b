@@ -1,0 +1,76 @@
+package org.trusty3pl.business.dao;
+
+import java.util.List;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+import org.trusty3pl.business.model.AppelOffre;
+import org.trusty3pl.business.model.AppelOffrePK;
+
+@Repository("appeloffreDao")
+public class AppelOffreDaoImpl implements AppelOffreDao {
+
+	@Autowired
+	private SessionFactory sessionFactory;
+	@Override
+	public AppelOffre findById(String id1,String id2) {
+		Session session = this.sessionFactory.openSession();
+		AppelOffre p = (AppelOffre) session.load(AppelOffre.class, new AppelOffrePK(id1,id2));
+		return p;
+	}
+
+	@Override
+	public boolean save(AppelOffre c1) {
+		boolean isav=false;
+		Session session = this.sessionFactory.openSession();
+		session.persist(c1);
+		session.flush();
+		isav= true;
+		return isav;
+	}
+
+	@Override
+	public boolean delete(String id1,String id2) {
+		Session session = this.sessionFactory.getCurrentSession();
+		AppelOffre p = (AppelOffre) session.load(AppelOffre.class, new AppelOffrePK(id1,id2));
+		if(null != p){
+			session.delete(p);
+			return true;
+		}
+        return false;
+	}
+
+	@Override
+	public boolean update(AppelOffre c1) {
+		Session session = this.sessionFactory.openSession();
+		session.update(c1);
+		session.flush();
+
+		return true;
+	}
+
+	@SuppressWarnings("unchecked")
+	@Override
+	public List<AppelOffre> findAllAppelOffres() {
+		Session session = this.sessionFactory.openSession();
+		List<AppelOffre> cartList = (List<AppelOffre>)session.createQuery("from AppelOffre").list();
+		return cartList;
+	}
+
+	public SessionFactory getSessionFactory() {
+		return sessionFactory;
+	}
+
+	public void setSessionFactory(SessionFactory sessionFactory) {
+		this.sessionFactory = sessionFactory;
+	}
+
+	@Override
+	public AppelOffre findByProd(String pr) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,58 @@
+package org.trusty3pl.business.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.trusty3pl.business.dao.AppelOffreDao;
+import org.trusty3pl.business.model.AppelOffre;
+
+public class AppelOffreServiceImpl implements AppelOffreService {
+
+	@Autowired
+	private AppelOffreDao userDao;
+	@Override
+	public AppelOffre findById(String id1,String id2) {
+		return userDao.findById(id1,id2);
+	}
+
+	@Override
+	public boolean save(AppelOffre c1) {
+		return userDao.save(c1);
+
+	}
+
+	@Override
+	public boolean delete(String id1,String id2) {
+          return userDao.delete(id1, id2);
+
+	}
+
+	@Override
+	public boolean update(AppelOffre c1) {
+         return userDao.update(c1);
+
+	}
+
+
+
+	@Override
+	public List<AppelOffre> findAllAppelOffres() {
+
+		return userDao.findAllAppelOffres();
+	}
+
+	public AppelOffreDao getAppelOffreDao() {
+		return userDao;
+	}
+
+	public void setAppelOffreDao(AppelOffreDao userDao) {
+		this.userDao = userDao;
+	}
+
+	@Override
+	public List<AppelOffre> findByProd(String pr) {
+		// TODO Auto-generated method stub
+		return userDao.findByProd(pr);
+	}
+
+}

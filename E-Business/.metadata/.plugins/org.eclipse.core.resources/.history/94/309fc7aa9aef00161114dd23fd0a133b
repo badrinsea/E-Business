@@ -1,0 +1,5 @@
+package org.trusty3pl.business.control;
+
+public class AppelOffreController {
+
+}

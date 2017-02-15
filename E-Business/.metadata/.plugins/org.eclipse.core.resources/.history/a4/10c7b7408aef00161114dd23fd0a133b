@@ -1,0 +1,17 @@
+package org.trusty3pl.business.dao;
+
+import java.util.List;
+
+import org.trusty3pl.business.model.AppelOffre;
+
+
+public interface AppelOffreDao {
+
+	
+	AppelOffre findById(String id1,String id2);
+	AppelOffre findByProd(String pr);
+	 boolean save(AppelOffre c1);
+	 boolean delete(String id1,String id2);
+	 boolean update(AppelOffre c1);
+		List<AppelOffre> findAllAppelOffres();
+}

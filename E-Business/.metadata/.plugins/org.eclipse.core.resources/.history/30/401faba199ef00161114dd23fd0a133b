@@ -1,0 +1,16 @@
+package org.trusty3pl.business.service;
+
+import java.util.List;
+
+import org.trusty3pl.business.model.AppelOffre;
+
+
+public interface AppelOffreService {
+
+	
+	AppelOffre findById(String id1,String id2);
+	 boolean save(AppelOffre c1);
+	 boolean delete(String id1,String id2);
+	 boolean update(AppelOffre c1);
+		List<AppelOffre> findAllAppelOffres();
+}
