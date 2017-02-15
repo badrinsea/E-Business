@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/EL KHALYLYBADR/Downloads/java-json.jar/java-json.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/EL KHALYLYBADR/Downloads/port_assignment-master/port_assignment-master/serveurtrans/serveurtrans/WebContent/WEB-INF/lib/cglib-2.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/EL KHALYLYBADR/Downloads/port_assignment-master/port_assignment-master/serveurtrans/serveurtrans/WebContent/WEB-INF/lib/commons-logging-1.1.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/EL KHALYLYBADR/Downloads/port_assignment-master/port_assignment-master/serveurtrans/serveurtrans/WebContent/WEB-INF/lib/jackson-annotations-2.0.0.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/EL KHALYLYBADR/Downloads/port_assignment-master/port_assignment-master/serveurtrans/serveurtrans/WebContent/WEB-INF/lib/jackson-core-2.0.0.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/EL KHALYLYBADR/Downloads/port_assignment-master/port_assignment-master/serveurtrans/serveurtrans/WebContent/WEB-INF/lib/jackson-core-asl-1.9.13-sources.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/EL KHALYLYBADR/Downloads/port_assignment-master/port_assignment-master/serveurtrans/serveurtrans/WebContent/WEB-INF/lib/jackson-databind-2.0.0.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/EL KHALYLYBADR/Downloads/port_assignment-master/port_assignment-master/serveurtrans/serveurtrans/WebContent/WEB-INF/lib/jettison-1.3.7.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/EL KHALYLYBADR/Downloads/port_assignment-master/port_assignment-master/serveurtrans/serveurtrans/WebContent/WEB-INF/lib/jstl-1.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/EL KHALYLYBADR/Downloads/port_assignment-master/port_assignment-master/serveurtrans/serveurtrans/WebContent/WEB-INF/lib/jstl-api.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/EL KHALYLYBADR/Downloads/port_assignment-master/port_assignment-master/serveurtrans/serveurtrans/WebContent/WEB-INF/lib/jstl-impl.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/EL KHALYLYBADR/Downloads/port_assignment-master/port_assignment-master/serveurtrans/serveurtrans/WebContent/WEB-INF/lib/mysql-connector-java-5.1.38.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/EL KHALYLYBADR/Downloads/port_assignment-master/port_assignment-master/serveurtrans/serveurtrans/WebContent/WEB-INF/lib/org-apache-commons-logging.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/EL KHALYLYBADR/Downloads/port_assignment-master/port_assignment-master/serveurtrans/serveurtrans/WebContent/WEB-INF/lib/spring-aop-4.0.1.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/EL KHALYLYBADR/Downloads/port_assignment-master/port_assignment-master/serveurtrans/serveurtrans/WebContent/WEB-INF/lib/spring-aspects-4.0.1.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/EL KHALYLYBADR/Downloads/port_assignment-master/port_assignment-master/serveurtrans/serveurtrans/WebContent/WEB-INF/lib/spring-beans-4.0.1.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/EL KHALYLYBADR/Downloads/port_assignment-master/port_assignment-master/serveurtrans/serveurtrans/WebContent/WEB-INF/lib/spring-build-src-4.0.1.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/EL KHALYLYBADR/Downloads/port_assignment-master/port_assignment-master/serveurtrans/serveurtrans/WebContent/WEB-INF/lib/spring-context-4.0.1.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/EL KHALYLYBADR/Downloads/port_assignment-master/port_assignment-master/serveurtrans/serveurtrans/WebContent/WEB-INF/lib/spring-context-support-4.0.1.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/EL KHALYLYBADR/Downloads/port_assignment-master/port_assignment-master/serveurtrans/serveurtrans/WebContent/WEB-INF/lib/spring-core-4.0.1.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/EL KHALYLYBADR/Downloads/port_assignment-master/port_assignment-master/serveurtrans/serveurtrans/WebContent/WEB-INF/lib/spring-expression-4.0.1.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/EL KHALYLYBADR/Downloads/port_assignment-master/port_assignment-master/serveurtrans/serveurtrans/WebContent/WEB-INF/lib/spring-framework-bom-4.0.1.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/EL KHALYLYBADR/Downloads/port_assignment-master/port_assignment-master/serveurtrans/serveurtrans/WebContent/WEB-INF/lib/spring-instrument-4.0.1.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/EL KHALYLYBADR/Downloads/port_assignment-master/port_assignment-master/serveurtrans/serveurtrans/WebContent/WEB-INF/lib/spring-instrument-tomcat-4.0.1.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/EL KHALYLYBADR/Downloads/port_assignment-master/port_assignment-master/serveurtrans/serveurtrans/WebContent/WEB-INF/lib/spring-jdbc-4.0.1.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/EL KHALYLYBADR/Downloads/port_assignment-master/port_assignment-master/serveurtrans/serveurtrans/WebContent/WEB-INF/lib/spring-jms-4.0.1.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/EL KHALYLYBADR/Downloads/port_assignment-master/port_assignment-master/serveurtrans/serveurtrans/WebContent/WEB-INF/lib/spring-messaging-4.0.1.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/EL KHALYLYBADR/Downloads/port_assignment-master/port_assignment-master/serveurtrans/serveurtrans/WebContent/WEB-INF/lib/spring-orm-4.0.1.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/EL KHALYLYBADR/Downloads/port_assignment-master/port_assignment-master/serveurtrans/serveurtrans/WebContent/WEB-INF/lib/spring-oxm-4.0.1.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/EL KHALYLYBADR/Downloads/port_assignment-master/port_assignment-master/serveurtrans/serveurtrans/WebContent/WEB-INF/lib/spring-test-4.0.1.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/EL KHALYLYBADR/Downloads/port_assignment-master/port_assignment-master/serveurtrans/serveurtrans/WebContent/WEB-INF/lib/spring-tx-4.0.1.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/EL KHALYLYBADR/Downloads/port_assignment-master/port_assignment-master/serveurtrans/serveurtrans/WebContent/WEB-INF/lib/spring-web-4.0.1.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/EL KHALYLYBADR/Downloads/port_assignment-master/port_assignment-master/serveurtrans/serveurtrans/WebContent/WEB-INF/lib/spring-webmvc-4.0.1.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/EL KHALYLYBADR/Downloads/port_assignment-master/port_assignment-master/serveurtrans/serveurtrans/WebContent/WEB-INF/lib/spring-webmvc-portlet-4.0.1.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/EL KHALYLYBADR/Downloads/port_assignment-master/port_assignment-master/serveurtrans/serveurtrans/WebContent/WEB-INF/lib/spring-websocket-4.0.1.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
